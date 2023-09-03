@@ -1,0 +1,123 @@
+html{
+    font-size: 62,14%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "lato",sans-serif;
+    background-color: #ddd;
+}
+
+.text-dark{
+    position: absolute;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    background-color: black;
+    color: #fff;
+    z-index: 2;
+}
+
+.text-light{
+    position: absolute;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    color: #fff;
+    z-index: 2;
+}
+
+.pl-img1{
+    display: flex;
+    position: relative;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/city-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.pl-img2{
+    display: flex;
+    position: relative;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/city-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pl-img3{
+    display: flex;
+    position: relative;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/city-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pl-img4{
+    display: flex;
+    position: relative;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/city-4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section {
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-dark{
+    background-color: #000;
+}
+
+.section-dark h2{
+    color: #ddd  ;
+}
+.section-dark p{
+    color: #ddd;
+}
+
+.section h2{
+    display: flex;
+    margin: 0;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+ p {
+    display: flex;
+    margin: 0;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-align: center;
+    line-height: 1.6rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #303030;
+}
